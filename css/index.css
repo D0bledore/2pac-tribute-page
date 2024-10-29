@@ -1,0 +1,66 @@
+#page-header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    transition: height 0.3s ease, opacity 0.3s ease;
+}
+
+#img-div-landing {
+    background-image: url('../images/landing-2pac.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+}
+
+#page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Media Iphone 14 Pro Max */
+@media screen and (min-width: 430px) {
+    #img-div-landing {
+        height: 45vh;
+    }
+    .navbar-nav {
+        display: none;
+    }
+    
+    .navbar-toggler {
+        display: block;
+    }
+}
+/* Ipad Mini */
+@media screen and (min-width: 768px) {
+    #img-div-landing {
+        height: 55vh;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    
+    .navbar-nav {
+        display: flex !important;
+    }
+}
+/* Fullscreen */
+@media screen and (min-width: 1280px) {
+    #img-div-landing {
+        height: 100vh;
+    }
+}
