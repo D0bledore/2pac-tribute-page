@@ -5,7 +5,6 @@ A simple but beautiful design.
 ## Features
 
 - **bg-image**
-
 Upon first visiting the landing page, the user is met with a high resolution image of Tupac Shakur that covers the entire screen. 
 Naturally, the user would want to scroll down to see if there is more. 
  
