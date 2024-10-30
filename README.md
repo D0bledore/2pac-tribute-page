@@ -1,6 +1,6 @@
 # 2pac-tribute-page
 
-A simple but beautiful design. Click [https://github.com/D0bledore/2pac-tribute-page/deployments/github-pages](here) to see my design. 
+A simple but beautiful design. Click [here](https://github.com/D0bledore/2pac-tribute-page/deployments/github-pages) to see my design. 
 
 ## Features
 
